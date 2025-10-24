@@ -1,6 +1,15 @@
 # esp32-fan
 Code for simple I/O control of a 5V fan.
 
+## Setup
+
+Create a virtual environment and activate it:
+
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+
 ## Deployment
 
 The .py files in the esp32-code folder are the software that runs on the ESP32.
@@ -9,7 +18,7 @@ To flash micropython to the ESP32:
 
 ```bash
 esptool --port /dev/ttyUSB0 erase-flash
-esptool --chip esp32 --port /dev/ttyUSB0 --baud 460800 write-flash -z 0x1000 /home/aaron/Downloads/ESP32_GENERIC-20250809-v1.26.0.bin
+esptool --chip esp32 --port /dev/ttyUSB0 --baud 460800 write-flash -z 0x1000 ./ESP32_GENERIC-20250911-v1.26.1.bin
 ```
 
 To upload a file to the ESP32: 
