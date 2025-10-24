@@ -1,4 +1,4 @@
-from machine import Pin
+from machine import Pin # type: ignore
 import time
 
 led = Pin(4, Pin.OUT)  # onboard LED
