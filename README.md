@@ -8,8 +8,8 @@ The .py files in the esp32-code folder are the software that runs on the ESP32.
 To flash micropython to the ESP32:
 
 ```bash
-"esptool --port /dev/ttyUSB0 erase-flash"
-"esptool --chip esp32 --port /dev/ttyUSB0 --baud 460800 write-flash -z 0x1000 /home/aaron/Downloads/ESP32_GENERIC-20250809-v1.26.0.bin"
+esptool --port /dev/ttyUSB0 erase-flash
+esptool --chip esp32 --port /dev/ttyUSB0 --baud 460800 write-flash -z 0x1000 /home/aaron/Downloads/ESP32_GENERIC-20250809-v1.26.0.bin
 ```
 
 To upload a file to the ESP32: 
