@@ -46,3 +46,7 @@ To upload a file to the ESP32:
 mpremote connect /dev/ttyUSB0 fs cp main.py :main.py
 mpremote connect /dev/ttyUSB0 reset
 ```
+
+## Resources
+
+[.bin](https://micropython.org/download/ESP32_GENERIC/) file for programming the board.
