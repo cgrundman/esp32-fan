@@ -1,4 +1,5 @@
-# esp32-fan
+# ESP32 Fan
+
 Code for simple I/O control of a 5V fan.
 
 ## Setup
